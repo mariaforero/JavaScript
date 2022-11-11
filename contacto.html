@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&family=Ms+Madi&family=Roboto:ital,wght@0,300;1,100&display=swap"
+        rel="stylesheet">
+
+
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+    <h2 class="h2">ESTOY MAS QUE FELIZ QUE ESCUCHAR DE TI</h2><br>
+    <p class="Pa">contacta me para obetener descuentos especiales</p>
+    <form onsubmit="callvalue()" action="" id="formulario">
+        <label for="fname">Nombre</label>
+        <input id="nombre" type="text" value="uname"><br><br>
+        <label for="lname">Apellido</label>
+        <input id="apellido" type="text" value="apellido"><br><br>
+        <label for="date">Fecha de Nacimiento</label>
+        <input id="date" type="date" value="date"><br><br>
+        <label for="direccion">Direccion</label>
+        <input id="direccion" type="text" value="direccion"><br><br>
+        <label for="ciudad">Ciudad</label>
+        <input id="ciudad" type="text"><br><br>
+        <label for="departamento">Departamento</label>
+        <input id="departamento" type="text"><br><br>
+        <label for="zip">Zip Code</label>
+        <input id="zipcode" type="text"><br><br>
+        <label for="celular">Numero de Celular</label>
+        <input id="celular" type="number" value="mobile no."><br><br>
+
+        <input type="submit">
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        <button onclick="confirm('Sure?') && console.log('Work!')">quieres recibir correos</button>
+        <button onclick="confirmation().then( confirmed => confirmed && console.log('Work!') )">no quieres recibir
+            correos</button>
+
+
+    </form>
+    <script src="./js/main2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
